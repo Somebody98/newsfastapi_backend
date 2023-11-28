@@ -6,7 +6,7 @@ from sqlalchemy import Boolean, Column, ForeignKey, Integer, String
 from sqlalchemy.orm import relationship
 from models import *
 
-SQLALCHEMY_DATABASE_URL = "postgresql://postgres:parkour2013@localhost/news"
+SQLALCHEMY_DATABASE_URL = "postgresql://postgres:123@localhost/news"
 
 engine = create_engine(
    SQLALCHEMY_DATABASE_URL
